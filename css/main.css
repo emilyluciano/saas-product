@@ -253,22 +253,22 @@ img {
 
 @media only screen and (min-width: 20em){
 
-    .nav li {
-        display: inline-block;
-        float: right;
-    }
+.nav li {
+    display: inline-block;
+    float: right;
+ }
     
-    .nav{
-        text-align: center; 
-        display:inline-block:  
+.nav {
+    text-align: center; 
+    display:inline-block:  
 }
-    .logo {
-        float: left;
-        padding: 10%;
-        margin-left: -2em;
-        position: absolute;
-    
-    }
+
+.logo {
+    float: left;
+    padding: 10%;
+    margin-left: -2em;
+    position: absolute;
+}
 
 @media only screen and (min-width: 40em){
       
@@ -280,7 +280,6 @@ img {
         text-align: right;
         float: right;
     }
-    
 }
 
 @media only screen and (min-width: 20em) {
