@@ -1,5 +1,6 @@
 html {
-  font: normal 100%/1.5 "Merriweather",serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -144,6 +145,6 @@ sub {
 
 h1, h2, h3, h4, h5, h6,
 .brand-family {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.7em;
 }
