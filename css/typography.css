@@ -28,6 +28,8 @@ h1, .lotta {
 h1, .peta {
   font-size: 1.4015rem;
   line-height: 2.8729;
+  text-align: center;
+  float: inherit;
 }
 
 h3, .tera {
@@ -57,7 +59,8 @@ small, .milli {
 
 .micro {
   font-size: 0.7901rem;
-  line-height: 1.8984;
+  line-height: 1.53;
+  margin-bottom: -1em;
 }
 
 sub,
@@ -94,10 +97,15 @@ sub {
 
 .pad-top, .pad-t {
   padding-top: 1.5rem;
+  text-align: center;
+}
+
+.micro, pad-t, gutter{
+    padding: 1em;
 }
 
 .pad-bottom, .pad-b {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.8rem;
 }
 
 .pad-top-double, .pad-t-2 {
@@ -146,5 +154,5 @@ sub {
 h1, h2, h3, h4, h5, h6,
 .brand-family {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.2em;
 }
