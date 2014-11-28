@@ -16,12 +16,12 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a:hover,
@@ -78,7 +78,7 @@ h1, banner {
 }
 
 p, footer{
- text-align: center;
+    text-align: center;
 }
 
 .tera {
@@ -88,9 +88,9 @@ p, footer{
 }
 
 h3, peta {
-text-align: center;
-padding: 1%;
-margin: 3%;
+    text-align: center;
+    padding: 1%;
+    margin: 3%;
 }
 
 .inform, tera {
@@ -101,14 +101,14 @@ margin: 3%;
 
 .subhead, zeda {
     position: absolute;
-    margin: 20%;
+    margin: 20%; 
     color: white;
     padding-top: 6em;
 }
 
 img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .signup {
@@ -118,9 +118,7 @@ img {
 .button {
     position: relative;
     padding: 3%;
-    float: left;
-    margin: -4em;
-    margin-left: 7em;
+    margin-left: 9em;
     background-color: black;
     text-decoration: none;
     color: white;
@@ -159,8 +157,8 @@ img {
 }
 
 .footer ul a::after { 
-  content: " ·";
-  color: #fff;
+    content: " ·";
+    color: #fff;
 }
 
 .header a::after {
@@ -196,9 +194,9 @@ img {
 }
 
 .header {
-  width: 100%;
-  height: 80px;
-  background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
 }
 
 .header li:last-child a::after {
@@ -221,6 +219,21 @@ img {
     width: 50%;
 }
 
+.feature {
+    width: 30%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    
+}
+
+.icon {
+    display: inline-block;
+    width: 15%;
+    margin-right: 2%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+}
+
 .logo {
     position: absolute;
     display:inline-block;
@@ -229,6 +242,14 @@ img {
     max-height: 50%;
     margin-left: auto;
     padding: 10%;
+}
+
+.masthead, giga {
+    position: absolute;
+    color: white;
+    padding: 4em;
+    text-align: center;
+
 }
 
 .nav a {
@@ -267,6 +288,12 @@ img {
     margin-left: -2em;
     position: absolute;
 }
+    
+.banner, peta {
+    float: left;
+    font-size: 1em;
+    }
+}
 
 @media only screen and (min-width: 40em){
       
@@ -279,36 +306,8 @@ img {
         float: right;
     }
     
-#leftplacement {
-    float:left;
-    padding: 5px;
-    
-}
-
-#rightplacement {
-    float:left;
-    padding:5px;
-}
-
-}
-
-@media only screen and (min-width: 20em) {
-    
-        html { 
-        font-size: 110%;
-    }
-}
-
-@media only screen and (min-width: 40em) {
-    
-        html { 
-        font-size: 120%;
-    }    
-}
-
-@media only screen and (min-width: 60em) {
-    
-        html { 
-        font-size: 130%;
+    .banner, peta {
+        float: left;
+        font-size: 2em;
     }
 }
