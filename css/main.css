@@ -59,6 +59,13 @@ a:focus {
     text-align: center;
 }
 
+.plan {
+background-color: #CCCCCC;
+padding: 2em;
+margin: -.1em;
+
+}
+
 h1, banner {
     overflow: hidden;
     position: absolute;
@@ -91,6 +98,7 @@ h3, peta {
     text-align: center;
     padding: 1%;
     margin: 3%;
+    text-shadow: 2px 2px #333333;
 }
 
 .inform, tera {
@@ -116,9 +124,10 @@ img {
 }
 
 .button {
-    position: relative;
+    display: inline-block;
     padding: 3%;
-    margin-left: 9em;
+    margin: 2%;
+    margin-left: 8em;
     background-color: black;
     text-decoration: none;
     color: white;
@@ -126,6 +135,7 @@ img {
 }
 
 .button-pos {
+    display: inline-block;
     text-align:center;
     text-decoration: none;
     color: black;
@@ -235,6 +245,7 @@ img {
 }
 
 .fig {
+    display: inline-block;
     text-align:center;
     margin: .5%;
     padding: 0;
@@ -242,9 +253,8 @@ img {
 
 .icon-1 {
     display: inline-block;
-    width: 40%;
+    width: 30%;
     margin-left: 7em;
-    text-align: center;
 }
 
 .logo {
@@ -263,6 +273,10 @@ img {
     padding: 4em;
     text-align: center;
 
+}
+
+.head {
+text-shadow: none;
 }
 
 .nav a {
@@ -294,6 +308,7 @@ img {
     text-align: center; 
     display:inline-block:  
 }
+
 
 .logo {
     float: left;
@@ -331,15 +346,17 @@ img {
     }
     
 .fig {
-    float: left;
+    float: right;
     text-align:center;
+    padding: 4em;
 
 }
 
+
 .icon-1 {
-    display: inline-block;
-    width: 40%;
+    width: 50%;
     margin-left: 7em;
     text-align: center;
+    padding: 2em;
 }
 }
