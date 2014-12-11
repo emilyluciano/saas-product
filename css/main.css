@@ -166,15 +166,15 @@ img {
 }
 
 .field {
-    display: block;
-    padding-top: .5em;
+    display: inline-block;
+    padding-top: .2em;
 }
 
 .text {
     width: 100%;
     padding: .5em;
-    font-size: 2em;
-    border-radius: 12px;
+    font-size: .5em;
+    border-radius: 6px;
 }
 
 .title, mega {
@@ -228,10 +228,23 @@ img {
 
 .icon {
     display: inline-block;
-    width: 15%;
-    margin-right: 2%;
+    width: 17%;
+    margin-right: .5em;
     margin-left: 12%;
     margin-bottom: 5%;
+}
+
+.fig {
+    text-align:center;
+    margin: .5%;
+    padding: 0;
+}
+
+.icon-1 {
+    display: inline-block;
+    width: 40%;
+    margin-left: 7em;
+    text-align: center;
 }
 
 .logo {
@@ -288,6 +301,12 @@ img {
     margin-left: -2em;
     position: absolute;
 }
+
+.icon-1 {
+    float: left;
+    width: 20em;
+    margin-left: 2em;
+}
     
 .banner, peta {
     float: left;
@@ -310,4 +329,17 @@ img {
         float: left;
         font-size: 2em;
     }
+    
+.fig {
+    float: left;
+    text-align:center;
+
+}
+
+.icon-1 {
+    display: inline-block;
+    width: 40%;
+    margin-left: 7em;
+    text-align: center;
+}
 }
