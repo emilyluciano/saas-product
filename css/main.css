@@ -60,10 +60,9 @@ a:focus {
 }
 
 .plan {
-background-color: #CCCCCC;
-padding: 2em;
-margin: -.1em;
-
+    background-color: #CCCCCC;
+    padding: 2em;
+    margin: -.1em;
 }
 
 h1, banner {
@@ -111,7 +110,6 @@ h3, lotta {
     margin: 5%;
     text-shadow: 1px 1px #333333;
 }
-
 
 .inform, tera {
     padding: 2%;
@@ -254,7 +252,6 @@ img {
     width: 30%;
     margin-left: 30%;
     margin-bottom: 5%;
-    
 }
 
 .icon {
@@ -293,7 +290,6 @@ img {
     color: white;
     padding: 4em;
     text-align: center;
-
 }
 
 .head {
@@ -343,14 +339,14 @@ h3, lotta {
     margin-left: -2em;
     position: absolute;
 }
-
-    
+   
 .questions {
-background-color: lightgray;
-display: inline-block;
-text-align: justify;
-padding: 5%;
-margin: 5%;
+    background-color: lightgray;
+    display: inline-block;
+    text-align: justify;
+    padding: 5%;
+    margin: 5%;
+}
 }
 				
  
@@ -362,8 +358,8 @@ margin: 5%;
 }
     
 h4 {
-text-align: center;
-margin: 2%;
+    text-align: center;
+    margin: 2%;
 }
 
 .icon-1 {
@@ -375,33 +371,29 @@ margin: 2%;
 .banner, peta {
     float: left;
     font-size: 1em;
-    }
 }
 
 @media only screen and (min-width: 40em){
       
-    .nav {
-        float: right;
-        text-align: right;
-    }
-    .bottom-nav {
-        text-align: right;
-        float: right;
-    }
-    
-    .banner, peta {
-        float: left;
-        font-size: 2em;
+.nav {
+    float: right;
+    text-align: right;
 }
-   
+.bottom-nav {
+    text-align: right;
+    float: right;
+}
+    
+.banner, peta {
+    float: left;
+    font-size: 2em;
+}
     
 .fig {
     float: right;
     text-align:center;
     padding: 4em;
-
 }
-
 
 .icon-1 {
     width: 50%;
