@@ -243,8 +243,9 @@ img {
 }
 
 .bottom {
-    padding: 0;
-    width: 50%;
+    float: right;
+    margin-right: 5%;
+    padding: 2%;
     float: right;
 }
 
@@ -346,9 +347,7 @@ h3, lotta {
     text-align: justify;
     padding: 5%;
     margin: 5%;
-}
-}
-				
+}			
  
 .thanks {
     text-align: center;
@@ -372,6 +371,7 @@ h4 {
     float: left;
     font-size: 1em;
 }
+}
 
 @media only screen and (min-width: 40em){
       
@@ -379,6 +379,7 @@ h4 {
     float: right;
     text-align: right;
 }
+    
 .bottom-nav {
     text-align: right;
     float: right;
